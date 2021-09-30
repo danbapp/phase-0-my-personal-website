@@ -15,7 +15,7 @@ body {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 1em 0;
+  padding: 21px 0;
   overflow: hidden;
   background-color: #1b262c;
   text-align: center;
@@ -30,8 +30,8 @@ li {
 li a {
   display: inline;
   color: white;
-  padding-left: 1.5em;
-  padding-right: 1.5em;
+  padding-left: 1.4em;
+  padding-right: 1.4em;
   padding-top: inherit;
   padding-bottom: inherit;
   text-decoration: none;
@@ -39,4 +39,37 @@ li a {
 
 li a:hover {
   background-color: #1d3846;
+}
+
+/* NavBar */
+
+#header {
+  margin-top: 3.78em;
+  background: #bbe1fa;
+  padding-top: 5em;
+  padding-bottom: 3em;
+}
+
+#headerphoto {
+  max-width: 40%;
+  height: auto;
+  border-radius: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#name {
+  text-align: center;
+  font-weight: 900;
+  font-size: 2.5em;
+  color: #1b262c;
+}
+
+#titles {
+  margin-top: -0.45em;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.2em;
+  color: rgba(27, 38, 44, 0.7);
 }
