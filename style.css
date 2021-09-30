@@ -1,7 +1,38 @@
 body {
-  background: blue;
+  font-family: "Open Sans", sans-serif;
 }
 
-h1 {
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 1em 0;
+  overflow: hidden;
+  background-color: #1b262c;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  padding-top: inherit;
+  padding-bottom: inherit;
+}
+
+li a {
+  display: inline;
   color: white;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top: inherit;
+  padding-bottom: inherit;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #1d3846;
 }
