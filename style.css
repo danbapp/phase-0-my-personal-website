@@ -175,3 +175,22 @@ li a:hover {
   max-width: 35%;
   height: auto;
 }
+
+/* Footer */
+
+#bottom {
+  margin-top: -0.99em;
+  background-color: #334752;
+}
+
+#bottom,
+p,
+a {
+  font-size: 0.9em;
+  font-weight: 300;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+}
