@@ -30,6 +30,7 @@ li {
 li a {
   display: inline;
   color: white;
+  font-weight: 500;
   padding-left: 1.4em;
   padding-right: 1.4em;
   padding-top: inherit;
@@ -41,12 +42,12 @@ li a:hover {
   background-color: #1d3846;
 }
 
-/* NavBar */
+/* Header */
 
 #header {
   margin-top: 3.78em;
   background: #bbe1fa;
-  padding-top: 5em;
+  padding-top: 3em;
   padding-bottom: 3em;
 }
 
@@ -72,4 +73,29 @@ li a:hover {
   font-weight: 400;
   font-size: 1.2em;
   color: rgba(27, 38, 44, 0.7);
+}
+
+/* About Me */
+
+#about {
+  margin-top: -1.21em;
+  background-color: #1b262c;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.aboutheader {
+  text-align: center;
+  font-size: 1.6em;
+  font-weight: 500;
+  color: white;
+}
+
+#about p {
+  text-align: justify;
+  font-size: 0.95em;
+  font-weight: 300;
+  color: white;
+  padding-left: 10%;
+  padding-right: 10%;
 }
