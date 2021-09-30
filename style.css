@@ -1,16 +1,15 @@
 /* General Declarations */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
 }
 
 /* NavBar */
-
-.navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
 
 ul {
   list-style-type: none;
@@ -45,19 +44,16 @@ li a:hover {
 /* Header */
 
 #header {
-  margin-top: 3.78em;
   background: #bbe1fa;
-  padding-top: 3em;
-  padding-bottom: 3em;
 }
 
 #headerphoto {
   max-width: 40%;
   height: auto;
-  border-radius: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding: 3em 0 0.5em 0;
 }
 
 #name {
@@ -68,20 +64,19 @@ li a:hover {
 }
 
 #titles {
-  margin-top: -0.45em;
   text-align: center;
   font-weight: 400;
   font-size: 1.2em;
   color: rgba(27, 38, 44, 0.7);
+  padding-bottom: 2.5em;
+  margin-top: -0.8em;
 }
 
 /* About Me */
 
 #about {
-  margin-top: -1.21em;
   background-color: #1b262c;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  margin-top: 0px;
 }
 
 .headings {
@@ -89,6 +84,7 @@ li a:hover {
   font-size: 1.6em;
   font-weight: 500;
   color: white;
+  padding: 1.5em 0 0.8em 0;
 }
 
 #about p {
@@ -98,15 +94,13 @@ li a:hover {
   color: white;
   padding-left: 10%;
   padding-right: 10%;
+  padding-bottom: 2.5em;
 }
 
 /* Portfolio */
 
 #portfolio {
-  margin-top: -1.3em;
   background-color: #334752;
-  padding-top: 2em;
-  padding-bottom: 2em;
 }
 
 #portfolio p {
@@ -114,6 +108,7 @@ li a:hover {
   font-size: 0.95em;
   font-weight: 300;
   color: white;
+  padding-bottom: 1.8em;
 }
 
 #github {
@@ -122,16 +117,13 @@ li a:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 0.5em;
+  padding-bottom: 2.5em;
 }
 
 /* Contact */
 
 #contact {
-  margin-top: -1.28em;
   background: #1b262c;
-  padding-top: 2em;
-  padding-bottom: 2em;
 }
 
 #email {
@@ -146,6 +138,7 @@ li a:hover {
   font-size: 0.95em;
   font-weight: 300;
   color: white;
+  padding-bottom: 2em;
 }
 
 .social {
@@ -174,23 +167,21 @@ li a:hover {
 .flex-container img {
   max-width: 35%;
   height: auto;
+  padding-bottom: 2.5em;
 }
 
 /* Footer */
 
 #bottom {
-  margin-top: -0.99em;
   background-color: #334752;
 }
 
 #bottom,
-p,
-a {
+p {
   font-size: 0.9em;
   font-weight: 300;
   color: white;
   text-decoration: none;
   text-align: center;
-  padding-top: 0.1em;
-  padding-bottom: 0.1em;
+  padding: 0.8em 0;
 }
