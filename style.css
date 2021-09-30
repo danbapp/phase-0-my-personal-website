@@ -1,6 +1,10 @@
+/* General Declarations */
+
 body {
   font-family: "Open Sans", sans-serif;
 }
+
+/* NavBar */
 
 .navbar {
   position: fixed;
