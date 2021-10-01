@@ -108,15 +108,16 @@ li a:hover {
   font-size: 0.95em;
   font-weight: 300;
   color: white;
-  padding-bottom: 1.8em;
+  padding-bottom: 2.5em;
+}
+
+#image-container {
+  text-align: center;
 }
 
 #github {
-  max-width: 3%;
+  width: 3%;
   height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   padding-bottom: 2.5em;
 }
 
