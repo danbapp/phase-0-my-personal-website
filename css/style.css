@@ -1,0 +1,188 @@
+/* General Declarations */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* NavBar */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 21px 0;
+  overflow: hidden;
+  background-color: #1b262c;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  padding-top: inherit;
+  padding-bottom: inherit;
+}
+
+li a {
+  display: inline;
+  color: white;
+  font-weight: 500;
+  padding-left: 1.4em;
+  padding-right: 1.4em;
+  padding-top: inherit;
+  padding-bottom: inherit;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #1d3846;
+}
+
+/* Header */
+
+#header {
+  background: #bbe1fa;
+}
+
+#headerphoto {
+  max-width: 40%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3em 0 0.5em 0;
+}
+
+#name {
+  text-align: center;
+  font-weight: 900;
+  font-size: 2.5em;
+  color: #1b262c;
+}
+
+#titles {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.2em;
+  color: rgba(27, 38, 44, 0.7);
+  padding-bottom: 2.5em;
+  margin-top: -0.8em;
+}
+
+/* About Me */
+
+#about {
+  background-color: #1b262c;
+}
+
+.headings {
+  text-align: center;
+  font-size: 1.6em;
+  font-weight: 500;
+  color: white;
+  padding: 1.5em 0 0.8em 0;
+}
+
+#about p {
+  text-align: justify;
+  font-size: 0.95em;
+  font-weight: 300;
+  color: white;
+  line-height: 1.5;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 2.5em;
+}
+
+/* Portfolio */
+
+#portfolio {
+  background-color: #334752;
+}
+
+#portfolio p {
+  text-align: center;
+  font-size: 0.95em;
+  font-weight: 300;
+  color: white;
+  padding-bottom: 2.5em;
+}
+
+#image-container {
+  text-align: center;
+}
+
+#github {
+  width: 3%;
+  height: auto;
+  padding-bottom: 2.5em;
+}
+
+/* Contact */
+
+#contact {
+  background: #1b262c;
+}
+
+#email {
+  font-size: 0.95em;
+  font-weight: 300;
+  color: white;
+  text-decoration: none;
+}
+
+#contact p {
+  text-align: center;
+  font-size: 0.95em;
+  font-weight: 300;
+  color: white;
+  padding-bottom: 2.4em;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+}
+
+#contact img {
+  max-width: 8%;
+  height: auto;
+}
+
+/* Social Links */
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  background-color: #1b262c;
+}
+
+.flex-container > div {
+  width: 75px;
+  text-align: center;
+}
+
+.flex-container img {
+  max-width: 35%;
+  height: auto;
+  padding-bottom: 2.5em;
+}
+
+/* Footer */
+
+#bottom {
+  background-color: #334752;
+}
+
+#bottom,
+p {
+  font-size: 0.9em;
+  font-weight: 300;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.8em 0;
+}
