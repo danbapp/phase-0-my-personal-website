@@ -76,7 +76,6 @@ li a:hover {
 
 #about {
   background-color: #1b262c;
-  margin-top: 0px;
 }
 
 .headings {
@@ -139,7 +138,7 @@ li a:hover {
   font-size: 0.95em;
   font-weight: 300;
   color: white;
-  padding-bottom: 2em;
+  padding-bottom: 2.4em;
 }
 
 .social {
